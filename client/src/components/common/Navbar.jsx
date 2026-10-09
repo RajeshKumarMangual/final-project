@@ -74,7 +74,7 @@ const Navbar = () => {
           {/* Admin Dashboard */}
           {token && isSuperuser && (
             <Link
-              to="/admin"
+              to="/admin/dashboard/"  // /admin
               className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white border border-white/20 px-4 py-2 rounded-xl text-xs font-bold transition-all"
             >
               <ShieldCheck className="w-4 h-4 text-secondary" />
@@ -138,7 +138,7 @@ const Navbar = () => {
           <div className="pt-4 border-t border-white/10 flex flex-col gap-3">
             {token && isSuperuser && (
               <Link
-                to="/admin"
+                to="/admin/dashboard/"  // /admin
                 onClick={() => setMobileMenuOpen(false)}
                 className="flex items-center justify-center gap-2 bg-white/10 text-white py-3 rounded-xl text-xs font-bold border border-white/20"
               >

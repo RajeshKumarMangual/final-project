@@ -1,0 +1,19 @@
+# Python virtual environment
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Node.js
+node_modules/
+client/node_modules/
+client/dist/
+
+# Environment variables
+.env
+client/.env
+
+# Editor files
+.vscode/
+.idea/

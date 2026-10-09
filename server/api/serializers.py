@@ -13,7 +13,7 @@ class RegisterSerializer(serializers.ModelSerializer):
             'password'
         ]       
         
-        extra_kward = {
+        extra_kwargs = {          # kward
             'password' : {'write_only':True},
         }
         
